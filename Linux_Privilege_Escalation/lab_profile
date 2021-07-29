@@ -1,0 +1,33 @@
+alias lab1='docker start lab1 &>/dev/null && docker exec -it --user user lab1 bash'
+alias slab1='docker kill lab1'
+
+alias lab2='docker start lab2 &>/dev/null && docker exec -it --user user lab2 bash'
+alias slab2='docker kill lab2'
+
+alias lab3='docker start lab3 &>/dev/null && docker exec -it --user user lab3 bash'
+alias slab3='docker kill lab3'
+
+alias lab4='docker start lab4 &>/dev/null && docker exec -it --user user lab4 bash'
+alias slab4='docker kill lab4'
+
+alias lab5='docker start lab5 &>/dev/null && docker exec -it --user user lab5 bash'
+alias slab5='docker kill lab5'
+
+alias lab6='docker start lab6 &>/dev/null && docker exec -it --user user lab6 bash'
+alias slab6='docker kill lab6'
+
+alias lab7='docker start lab7 &>/dev/null && docker exec -it --user user lab7 bash'
+alias slab7='docker kill lab7'
+
+alias lab8='docker start lab8 &>/dev/null && echo -e "\n================================\nRun: ssh -p 2222 user@127.0.0.1\nCredentials: user/user\n================================\n"'
+alias slab8='docker kill lab8'
+
+alias lab9='docker start lab9 &>/dev/null && docker exec -it lab9 restart cron && docker exec -it lab9 cron && docker exec -it --user user lab9 bash'
+alias slab9='docker kill lab9'
+
+alias lab10='docker start lab10 &>/dev/null && docker exec -it lab10 chroot /tmp/user/jail'
+alias slab10='docker kill lab10'
+
+alias lab11='docker start lab10 &>/dev/null && docker exec -it lab10 schroot -c chroot:trusty -u root '
+alias slab11='docker kill lab10'
+
