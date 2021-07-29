@@ -48,8 +48,8 @@
   - Now `logout` your VM and login back to apply all the changes made
   - To check that all the dependencies are installed and we are good to go, run: `docker ps -a`
   - If no error shows up, we can proceed with lab installation
-  - Clone the repo: `git clone ???????????`
-  - Then: `cd Linux_Privilege_Escalation` and you will see
+  - Clone the repo: `git clone https://github.com/m2sup3rn0va/PTLabs.git`
+  - Then: `cd PTLabs/Linux_Privilege_Escalation/` and you will see
 
     ![1.png](attachments/1.png)
 
