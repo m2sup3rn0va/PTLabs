@@ -53,6 +53,10 @@
   - Once you are done with the lab, you can run `cleanup` script to restore the original state of your VM. It will revert back all the changes done by `deploy_lab` script
   - Just that, it will not remove `docker` from the VM
   - Once installed, you can use `nmap` in Kali for scanning and checking IP of the container. Default Network Segment used by docker: `172.17.0.0/16` 
+  
+> **NOTE**: Make sure that you don't see the Dockerfile before completing the challenge because in that case, you already knew what is configured in the container
+
+> **NOTE**: Dockerfile, here act as a walkthrough of the CTF
 
 ---
 
