@@ -42,9 +42,9 @@
   - The script `deploy_lab.sh` will install `docker` on your machine and set necessary permissions in `Phase-1`. Then on `Phase-2`, will install the lab
   - Once you download the `tar` file, untar and then `cd` and run `deploy_lab`. Once done, you need to `logoff` and `login` and then again run `deploy_lab.sh`
   - Then it will install `lab` and its container
+  - First download the `kn0ck0ut.tar.xz` from github. You need to download that manually. Then,
 
     ```sh
-    wget https://github.com/m2sup3rn0va/PTLabs/blob/main/kn0ck0ut/kn0ck0ut.tar.xz
     tar -xvf kn0ck0ut.tar.xz
     cd kn0ck0ut
     ./deploy_lab.sh
